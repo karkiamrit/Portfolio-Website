@@ -7,6 +7,7 @@ margin:0;">
     <title>
         My Awesome Portfolio
     </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         
         
@@ -14,21 +15,31 @@ margin:0;">
             color: white;
             text-decoration: none;
             margin-right: 100px;
-            text-shadow: green;
+            
+       
             
 
         }
-
+        
+        .navi:hover {
+        color: rgb(235, 212, 212);
+        
+    }
+    
+    
+    
     
        
         .navigation{
         color: rgb(0, 0, 0);
         background:black;
         padding-left: 30%;
+        overflow: auto;
         
         
 
         }
+        
         h3{
             
             margin-top: 50px;
@@ -49,12 +60,62 @@ margin:0;">
             font-size: 12px;
             font-family:'Times New Roman', Times, serif;
         }
-        
+    .icon-bar {
+    
+    position: fixed;
+    bottom: 40%;
+    right: 0%
+    
+    }
+
+
+    .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+    
+}
+
+
+    .icon-bar a.facebook:hover {
+        background-color:blue;
+    }
+    .icon-bar a.linkedin:hover {
+        background-color:#007bb5;
+    }
+    .icon-bar a.twitter:hover {
+        background-color: #55ACEE;
+    }
+    .icon-bar a.instagram:hover {
+        background-color:#bb0000;
+    }
+    .facebook {
+        background-blend-mode: overlay;
+        color: white;
+    }
+
+    .twitter {
+        background-blend-mode: overlay;
+        color: white;
+    }
+
+    .linkedin {
+        background-blend-mode: overlay;
+        color: white;
+    }
+
+    .instagram {
+        background-blend-mode: overlay;
+        color: white;
+    }
         
     </style>
 </head>
 <body>
-    <nav class="navigation" >
+    <div class="navigation" >
         
         <a class="navi" href="portfolio website.html" target="_blank"><b>Home</b><img src="https://th.bing.com/th/id/R.2f77851b145e1d7361bb8a7420c38a53?rik=XZClBVQrPDTYCw&riu=http%3a%2f%2fassets.stickpng.com%2fthumbs%2f588a6708d06f6719692a2d20.png&ehk=RNOnlF2JMZCkeos6YWmWCaG43hB3PQu8I0qcmjFTBuE%3d&risl=&pid=ImgRaw&r=0" style="height: 20px;" style="width: 20px;" ></a>
         <a class="navi" href="Bio.html" target="_blank"><b>Biodata</b>
@@ -62,7 +123,7 @@ margin:0;">
             <img src="https://th.bing.com/th/id/R.ea79b2fcfeb2218303d6bc0548b234ca?rik=D7tJawsPLSj7sA&riu=http%3a%2f%2f2.bp.blogspot.com%2f_7gC9gw6xmYQ%2fTTgmXNvF7bI%2fAAAAAAAAANU%2fGMz3XIYHfSA%2fs1600%2fAdmin_Jan_20_Main.png&ehk=12HpiWldRr047YeGCdmB14xn%2fOwchGygF6ogN6YQtp4%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" style="height: 20px;" style="width: 20px;" ></a>
             
         <a class="navi" href="Contact.html" target="_blank" ><b>Contact</b><img src="https://pngimg.com/uploads/phone/phone_PNG48931.png" style="height: 20px;" style="width: 20px;" ></a>
-    </nav>
+        </div>
     <h3 style="color: white;">
         Hi, I'm Amrit.
     </h3>
@@ -70,8 +131,14 @@ margin:0;">
         Coder. Tech Enthusiast.
     </h1>
     <p>A Web Tech Student who hacks at, makes and occasionally breaks things.
-        <br>Student by profession.</br>
-        Less moody in real life. ✌️</p>   
-     <h3><a class="lm" href="bio.html" target="_blank" style="color: red; font-size: 10px; text-decoration: none;">Learn more</a></h3>   
+        <br>while (time>=infinity) </br>
+        {Less fascinated in real life} ✌️</p>   
+     <h3><a class="lm" href="bio.html" target="_blank" style="color: red; font-size: 12px; text-decoration: none; position: fixed; bottom: 43%; left: 6%;">Learn more</a></h3>   
+     <div class="icon-bar">
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+      </div>
 </body>
 </html>
