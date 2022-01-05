@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style>
+          body{
+            font: 18px/1.5 "Open Sans", sans-serif;
+            color: whitesmoke;
+            background: url(https://cdn.wallpapersafari.com/5/26/3AGmgy.jpg);
+            background-size: cover;
+          }
+            .box{
+              text-align: center;
+            }
+            
+            h1{
+              text-align: center;
+            }
+            .name input{
+              height: 40px;
+              width: 40%;
+              margin: 10px 0px 10px 0px;
+              background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg);
+              background-size:contain;
+              background-repeat: no-repeat;
+              background-position-x: 99%;
+              background-size: 20px;
+              background-position-y: 50%;
+              padding-left: 20px;
+              background-color: #202020;
+              color: whitesmoke;
+              }
+            .Surname input{
+              height: 40px;
+              width: 40%;
+              margin: 10px 0px 10px 0px;
+              padding-left: 20px;
+              background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg);
+             background-size: 0px;
+             background-color: #202020;
+             color: whitesmoke;
+             
+
+              
+            }
+            
+            ::placeholder{
+              color: rgba(252, 252, 252, 0.753);
+            }
+            .pn input{
+              height: 40px;
+              width: 40%;
+              margin: 10px 0px 10px 0px;
+              background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg);
+              background-size:contain;
+              background-repeat: no-repeat;
+              background-position-x: 99%;
+              background-size: 20px;
+              background-position-y: 50%;
+              padding-left: 20px;
+              background-color: #202020;
+              color: whitesmoke;
+              
+            }.ea input{
+              height: 40px;
+              width: 40%;
+              margin: 10px 0px 10px 0px;
+              padding-left: 20px;
+              background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg);
+              background-size:contain;
+              background-repeat: no-repeat;
+              background-position-x: 99%;
+              background-size: 20px;
+              background-position-y: 50%;
+              background-color: #202020;
+              color: whitesmoke;
+              
+            }.new select{
+              height: 45px;
+              width: 41.5%;
+              margin: 10px 0px 10px 0px;
+              padding-left: 20px;
+              background-color: #202020;
+              color: whitesmoke;
+              
+              
+            } 
+            .new select option{
+              color: whitesmoke;
+            }
+            
+            .ta textarea{
+              height: 40px;
+              width: 40%;
+              margin: 10px 0px 10px 0px;
+              padding-left: 20px;
+              background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg);
+              background-size: 0px;
+              color: whitesmoke;
+              background-color: #202020;
+              padding-top: 1%;
+              
+            }
+            .buttons input{
+              height: 30px;
+              width: 200px;
+              margin-top: 10px;
+            }
+            
+          
+        </style>
+    </head>
+    <body>
+        <form>
+          <header>
+            <h1>Get in Touch!</h1>
+          </header>
+          <div class="box">
+          <div class="new">
+          <select id="slt">
+            <option selected disabled>**Please choose an option**</option>
+            <option>Email me </option>
+            <option>Get a quote</option>
+            <option>Other</option>
+
+            
+          </select>
+          </div>
+          <div class="name">
+          
+          <input type="text" id="name" placeholder="Name" required="required">
+          </div>
+          <div class="Surname">
+          <input type="text" id="surname" placeholder="Surname">
+          </div>
+          <div class="pn">
+            <input type="text" id="phone" placeholder="Phone Number" required="required"></div>
+          <div class="ea">
+            <input type="text" id="email" placeholder="Email Address" required="required"></div>
+          <div class="ta">
+            <textarea placeholder="Leave your message"></textarea></div>
+          <div class="checkbox">
+            <input type="checkbox" required="required">I hereby declare that I am willingly forwarding this message</div>
+          <div class="buttons">
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+          </div>
+        </form>
+      </div>
+    </body>
+</html>
